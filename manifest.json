@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Text Summarizer",
+    "version": "1.0",
+    "description": "Summarize text (demo version)",
+    "permissions": ["activeTab"],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
