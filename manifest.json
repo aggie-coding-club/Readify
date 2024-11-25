@@ -2,8 +2,11 @@
   "manifest_version": 3,
   "name": "Readify!",
   "version": "1.0",
-  "description": "Summarize text with a modern interface",
+  "description": "Summarize text using Gemini 1.5 Flash",
   "permissions": ["activeTab"],
+  "host_permissions": [
+    "https://generativelanguage.googleapis.com/*"
+  ],
   "action": {
     "default_popup": "popup.html"
   }
